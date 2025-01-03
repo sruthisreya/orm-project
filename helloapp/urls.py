@@ -9,9 +9,5 @@ urlpatterns = [
     path('book/valueslist/',Bookvaluesview.as_view(),name='bookvalueslist'),
     path('author/',AuthorlistView.as_view(),name='AuthorlistView'),
     path('book/exclude/',Bookexcludeview.as_view(),name='Bookexcludeview'),
-    path('book/aggregate/', Bookaggregateview.as_view(),name='Bookaggregateview')
-
-
-
-    
+    path('book/aggregate/', Bookaggregateview.as_view(),name='Bookaggregateview')  
 ]
